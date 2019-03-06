@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!-- saved from url=(0042)file:///C:/Users/rusasc/Desktop/login.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -17,6 +16,7 @@ body{margin:0;color:#333;padding:10px 8px 8px;font-size:15px;font-family:Tahoma,
 		<form name="sendin" action="file:///C:/Users/rusasc/Desktop/$(link-login-only)" method="post">
 			<input type="hidden" name="username">
 			<input type="hidden" name="password">
+			<input type="hidden" name="fio">
 			<input type="hidden" name="dst" value="$(link-orig)">
 			<input type="hidden" name="popup" value="true">
 		</form>
@@ -59,13 +59,14 @@ body{margin:0;color:#333;padding:10px 8px 8px;font-size:15px;font-family:Tahoma,
 <td>
 <div id="kangndo7">
 <div id="kangndo8">
-<form id="kangndo9" name="login" action="https://anti98.github.io/WifiRegistration.github.io/LoginConfermed.HTML" method="get">
-<INPUT TYPE="hidden" NAME="redirect" VALUE="LoginConfermed.HTML">	
+<form id="kangndo9" name="login" action="file:///C:/Users/rusasc/Desktop/$(link-login-only)" method="post">
 <input type="hidden" name="dst" value="$(link-orig)">
 <input type="hidden" name="popup" value="true">					
-<input class="kangndo11" name="username" type="text" placeholder="Email" required="required">
+<input class="kangndo11" name="username" type="text" placeholder="Username" required="required">
 <br>
 <input class="kangndo11" name="password" type="password" placeholder="Password" required="required">
+<br>
+<input class="kangndo11" name="fio" type="fio" placeholder="FIO" required="required">
 <br>
 <input class="kangndo10" type="submit" value="LOG IN">		
 <br>	
@@ -81,7 +82,7 @@ Contact Us:<br><b>8 800 335 35 35</b>
 </td>
 </tr>
 </tbody></table>
-
+	
 <script type="text/javascript">
 <!--
   document.login.username.focus();
